@@ -5,7 +5,7 @@ import './styles/global.css';
 export function App() {
   return (
     <>
-      <Heading />
+      <Heading>Sexo!</Heading>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate
         maxime enim ipsam explicabo incidunt perferendis placeat, molestias
