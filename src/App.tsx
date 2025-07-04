@@ -1,17 +1,32 @@
-import { Heading } from './components/Heading';
 import './styles/theme.css';
 import './styles/global.css';
 
 export function App() {
   return (
     <>
-      <Heading>Sexo!</Heading>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate
-        maxime enim ipsam explicabo incidunt perferendis placeat, molestias
-        voluptas cum asperiores ad voluptates sit doloribus consequuntur ducimus
-        ratione suscipit dolor sequi!
-      </p>
+      <div className='container'>
+        <div className='content'>
+          <section>logo</section>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='content'>
+          <section>menu</section>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='content'>
+          <section>form</section>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='content'>
+          <section>footer</section>
+        </div>
+      </div>
     </>
   );
 }
